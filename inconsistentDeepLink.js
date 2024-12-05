@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Linking` API to handle deep links.  Sometimes, the `Linking.addEventListener` doesn't trigger, leaving the app unable to respond to incoming URLs.  This can happen inconsistently, making it difficult to reproduce and debug. The event listener may register but not fire.
